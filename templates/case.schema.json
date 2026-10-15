@@ -1,0 +1,174 @@
+{
+  "_comment": "Copy to case.json and fill. null = unknown (ask or find). Dates ISO YYYY-MM-DD. Money as numbers without symbols. Every value must come from a document or an explicit user answer.",
+
+  "screening": {
+    "current_status": null,
+    "company_state": null,
+    "ownership_over_50": null,
+    "lca_state": null,
+    "previously_counted": null,
+    "schedule": null,
+    "payroll_budget_18m": null,
+    "premium_processing": null,
+    "uscis_company_account": null,
+    "route_taken": null
+  },
+
+  "petitioner": {
+    "legal_name": null,
+    "dba": null,
+    "entity_type": "C corporation",
+    "state_of_incorporation": null,
+    "date_incorporated": null,
+    "worksite_state_registration": { "state": null, "entity_number": null, "date": null },
+    "ein": null,
+    "naics": null,
+    "naics_description": null,
+    "address": { "street": null, "unit": null, "city": null, "state": null, "zip": null },
+    "mailing_same": true,
+    "phone": null,
+    "email": null,
+    "website": null,
+    "employees_us": 0,
+    "employees_total": 0,
+    "gross_income": 0,
+    "net_income": 0,
+    "h1b_dependent": false,
+    "willful_violator": false,
+    "signer": { "name": null, "title": "President and Chief Executive Officer" },
+    "one_line_description": null,
+    "product_description": null
+  },
+
+  "beneficiary": {
+    "family_name": null,
+    "given_name": null,
+    "middle_name": null,
+    "other_names": [],
+    "salutation": "Ms.",
+    "pronoun_possessive": "her",
+    "dob": null,
+    "country_of_birth": null,
+    "citizenship": null,
+    "gender": null,
+    "a_number": null,
+    "ssn": null,
+    "passport": { "number": null, "country": null, "issued": null, "expires": null },
+    "last_entry": { "date": null, "port": null, "status_at_entry": null },
+    "i94": { "number": null, "expires": null },
+    "current_status": "H-1B",
+    "status_valid_until": null,
+    "us_address": { "street": null, "unit": null, "city": null, "state": null, "zip": null },
+    "foreign_address": { "street": null, "city": null, "province": null, "country": null, "postal": null },
+    "phone": null,
+    "email": null,
+    "education": [
+      { "degree": null, "field": null, "school": null, "country": null, "year": null, "accredited_us": true }
+    ],
+    "employment": [
+      { "employer": null, "title": null, "from": null, "to": null, "city": null, "state": null, "summary": null }
+    ],
+    "prior_h1b_receipts": [
+      { "receipt": null, "valid_from": null, "valid_to": null, "employer": null }
+    ],
+    "previously_counted_against_cap": true,
+    "years_relevant_experience": null,
+    "experience_summary": null
+  },
+
+  "company_role": {
+    "ownership_pct": 100,
+    "director": true,
+    "sole_director": true,
+    "officer_titles": ["President", "Chief Executive Officer", "Secretary"],
+    "director_title": "Sole Director"
+  },
+
+  "lca": {
+    "number": null,
+    "certified_on": null,
+    "signed_on": null,
+    "valid_from": null,
+    "valid_to": null,
+    "job_title": null,
+    "soc_code": null,
+    "soc_title": null,
+    "wage_level": "I",
+    "wage_rate": null,
+    "wage_unit": "hour",
+    "prevailing_wage": null,
+    "full_time": false,
+    "hours_per_week": null,
+    "worksite": { "street": null, "unit": null, "city": null, "state": null, "zip": null, "msa": null },
+    "positions": 1
+  },
+
+  "petition": {
+    "basis": "change of employer",
+    "extension_of_stay": true,
+    "consular": false,
+    "cap_exempt": true,
+    "cap_exempt_basis": "INA 214(g)(7) — beneficiary previously counted",
+    "start": null,
+    "end": null,
+    "premium_processing": true,
+    "annualized_pay": null,
+    "period_wage": null,
+    "period_cost_with_employer_taxes": null,
+    "specialty_hours": null,
+    "owner_hours": null,
+    "specialty_hours_pct": 80,
+    "owner_hours_pct": 20,
+    "degree_requirement": "a bachelor's or higher degree in Computer Science, Cybersecurity, Computer Engineering, Information Security, or a closely related field whose course of study is directly related to the duties of the position",
+    "experience_years": 0,
+    "pay_frequency": "semi-monthly",
+    "dol_attestation_exempt": true,
+    "consulate_for_form": null
+  },
+
+  "position": {
+    "summary": null,
+    "duties": [
+      { "n": 1, "title": null, "hours": null, "bullets": [] },
+      { "n": 2, "title": null, "hours": null, "bullets": [] },
+      { "n": 3, "title": null, "hours": null, "bullets": [] },
+      { "n": 4, "title": null, "hours": null, "bullets": [] }
+    ],
+    "owner_duty_title": "Ownership-related activities: customer discovery and sales, investor outreach, administration",
+    "knowledge_areas": [
+      { "area": null, "duties": null }
+    ],
+    "why_degree": [],
+    "ooh_sentence": null
+  },
+
+  "funding": {
+    "founder_contribution": null,
+    "contribution_month": null,
+    "bank_balance": null,
+    "balance_date": null,
+    "revenue_start": null,
+    "raise_amount": null,
+    "raise_month": null,
+    "contingency": null
+  },
+
+  "evidence": {
+    "folder": null,
+    "exhibits": [
+      { "letter": "A", "title": "Certificate of Incorporation", "file": null, "category": "Petitioner's business documents", "include": true }
+    ]
+  },
+
+  "omit": {
+    "employers_not_to_mention": [],
+    "topics": []
+  },
+
+  "fees": {
+    "fte": 1,
+    "i129_total": null,
+    "i907": null,
+    "total": null
+  }
+}

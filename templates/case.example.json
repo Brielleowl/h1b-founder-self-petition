@@ -1,0 +1,199 @@
+{
+  "_comment": "Fictional example. Every name, number and date is invented.",
+
+  "petitioner": {
+    "legal_name": "Northwind Signal, Inc.",
+    "dba": null,
+    "entity_type": "C corporation",
+    "state_of_incorporation": "Delaware",
+    "date_incorporated": "2026-07-15",
+    "worksite_state_registration": { "state": "California", "entity_number": "B20260000000", "date": "2026-07-28" },
+    "ein": "00-0000000",
+    "naics": "513210",
+    "naics_description": "Software Publishers",
+    "address": { "street": "1200 Example Avenue", "unit": "Apt 4B", "city": "San Jose", "state": "CA", "zip": "95110" },
+    "mailing_same": true,
+    "phone": "408-555-0100",
+    "email": "founder@northwindsignal.example",
+    "website": "https://northwindsignal.example",
+    "employees_us": 0,
+    "employees_total": 0,
+    "gross_income": 0,
+    "net_income": 0,
+    "h1b_dependent": false,
+    "willful_violator": false,
+    "signer": { "name": "Mei Tanaka", "title": "President and Chief Executive Officer" },
+    "one_line_description": "an early-stage security software company",
+    "product_description": "software that will help software teams and regulated enterprises detect automated abuse of AI-enabled applications and APIs, by analysing machine-generated traffic, linking it to the identity and permissions of the actor behind it, and producing filtering rules customers apply through their existing gateway or web application firewall"
+  },
+
+  "beneficiary": {
+    "family_name": "Tanaka",
+    "given_name": "Mei",
+    "middle_name": null,
+    "other_names": [],
+    "salutation": "Ms.",
+    "pronoun_possessive": "her",
+    "dob": "1994-03-02",
+    "country_of_birth": "Japan",
+    "citizenship": "Japan",
+    "gender": "F",
+    "a_number": "A000000000",
+    "ssn": null,
+    "passport": { "number": "TK0000000", "country": "Japan", "issued": "2021-05-10", "expires": "2031-05-09" },
+    "last_entry": { "date": "2019-08-20", "port": "SFO", "status_at_entry": "F-1" },
+    "i94": { "number": "000000000A0", "expires": "2029-10-10" },
+    "current_status": "H-1B",
+    "status_valid_until": "2029-10-10",
+    "us_address": { "street": "1200 Example Avenue", "unit": "Apt 4B", "city": "San Jose", "state": "CA", "zip": "95110" },
+    "foreign_address": { "street": "1-1 Example-cho", "city": "Osaka", "province": "Osaka", "country": "Japan", "postal": "530-0001" },
+    "phone": "408-555-0101",
+    "email": "mei@northwindsignal.example",
+    "education": [
+      { "degree": "Master of Science", "field": "Computer Science", "school": "Example University", "country": "United States", "year": "2021", "accredited_us": true },
+      { "degree": "Bachelor of Arts", "field": "Psychology", "school": "Example College", "country": "United States", "year": "2017", "accredited_us": true }
+    ],
+    "employment": [
+      { "employer": "Northwind Signal, Inc.", "title": "Founder, President and Chief Executive Officer", "from": "2026-07-15", "to": null, "city": "San Jose", "state": "CA", "summary": "founder" },
+      { "employer": "Example Networks, Inc.", "title": "Software Engineer", "from": "2023-02-27", "to": "2026-09-15", "city": "San Francisco", "state": "CA", "summary": "bot defense: behavioral signals, automation-tool research, log analysis, false-positive reduction" }
+    ],
+    "prior_h1b_receipts": [
+      { "receipt": "IOE0000000001", "valid_from": "2023-10-23", "valid_to": "2026-09-30", "employer": "Example Networks, Inc." },
+      { "receipt": "IOE0000000002", "valid_from": "2026-10-01", "valid_to": "2029-09-30", "employer": "Example Networks, Inc." }
+    ],
+    "previously_counted_against_cap": true,
+    "years_relevant_experience": 3.5,
+    "experience_summary": "approximately three and a half years as a Software Engineer in bot defense at Example Networks, Inc."
+  },
+
+  "company_role": {
+    "ownership_pct": 100,
+    "director": true,
+    "sole_director": true,
+    "officer_titles": ["President", "Chief Executive Officer", "Secretary"],
+    "director_title": "Sole Director"
+  },
+
+  "lca": {
+    "number": "I-200-26000-000000",
+    "certified_on": "2026-09-23",
+    "signed_on": "2026-09-23",
+    "valid_from": "2026-10-01",
+    "valid_to": "2029-09-30",
+    "job_title": "AI Security Engineer",
+    "soc_code": "15-1212.00",
+    "soc_title": "Information Security Analysts",
+    "wage_level": "I",
+    "wage_rate": 50.09,
+    "wage_unit": "hour",
+    "prevailing_wage": 50.09,
+    "full_time": false,
+    "hours_per_week": 25,
+    "worksite": { "street": "1200 Example Avenue", "unit": "Apt 4B", "city": "San Jose", "state": "CA", "zip": "95110", "msa": "San Jose-Sunnyvale-Santa Clara, CA" },
+    "positions": 1
+  },
+
+  "petition": {
+    "basis": "change of employer",
+    "extension_of_stay": true,
+    "consular": false,
+    "cap_exempt": true,
+    "cap_exempt_basis": "INA 214(g)(7) — beneficiary previously counted",
+    "start": "2026-10-12",
+    "end": "2028-04-11",
+    "premium_processing": true,
+    "annualized_pay": 65117,
+    "period_wage": 97676,
+    "period_cost_with_employer_taxes": 106265,
+    "specialty_hours": 20,
+    "owner_hours": 5,
+    "specialty_hours_pct": 80,
+    "owner_hours_pct": 20,
+    "degree_requirement": "a bachelor's or higher degree in Computer Science, Cybersecurity, Computer Engineering, Information Security, or a closely related field whose course of study is directly related to the duties of the position",
+    "experience_years": 0,
+    "pay_frequency": "semi-monthly",
+    "dol_attestation_exempt": true,
+    "consulate_for_form": "Tokyo, Japan"
+  },
+
+  "position": {
+    "summary": "The AI Security Engineer implements and evaluates detection methods and security controls, performs threat modeling of AI- and agent-enabled application workflows, analyzes machine-generated traffic together with identity and permission signals, and conducts security testing and remediation verification. The position requires the theoretical and practical application of a specialized body of knowledge in computer science and information security. It is a hands-on, individual-contributor position with no supervisory responsibility.",
+    "duties": [
+      { "n": 1, "title": "Implement and evaluate detection methods and security controls", "hours": 7, "bullets": [
+        "Implement rule-based detection for automated abuse in customer-authorized request, gateway and agent tool-call logs",
+        "Build protection and filtering rules fitted to each customer's traffic, such as allow and deny lists, rate limits and access policies for sensitive endpoints",
+        "Measure false positives against legitimate traffic and missed detections against labeled abusive activity, and tune accordingly" ] },
+      { "n": 2, "title": "Threat modeling of AI- and agent-enabled application workflows", "hours": 4, "bullets": [
+        "Map request flows, actor identities and permission boundaries for each assessed workflow",
+        "Identify abuse paths: free-tier and API-key abuse, automated account creation, identity spoofing, agent tool calls beyond granted permissions",
+        "Apply OWASP automated-threat guidance and NIST SP 800-218A to test design" ] },
+      { "n": 3, "title": "Traffic, identity and permission signal analysis", "hours": 4, "bullets": [
+        "Analyze exported production logs and link traffic to identity and session context, permissions and behavioral signals",
+        "Distinguish legitimate automation from abusive automation without treating a claimed identity as verified",
+        "Maintain a versioned test set of labeled legitimate and abusive activity" ] },
+      { "n": 4, "title": "Security testing, vulnerability analysis and remediation verification", "hours": 5, "bullets": [
+        "Run controlled tests in customer staging environments for repeated abusive requests, identity spoofing and unauthorized data access",
+        "Analyze identified vulnerabilities and prepare mitigation recommendations",
+        "Verify remediation through regression testing after each fix and release" ] }
+    ],
+    "owner_duty_title": "Ownership-related activities: customer discovery and sales, investor outreach, administration",
+    "knowledge_areas": [
+      { "area": "Information security: threat modeling, access control and authorization models, adversarial analysis", "duties": "Duties 2 and 4" },
+      { "area": "Computer networking and web protocols: HTTP and API semantics, sessions, authentication flows, TLS", "duties": "Duties 3 and 4" },
+      { "area": "Algorithms and statistical methods: classification, anomaly detection, measurement of false positives and missed detections", "duties": "Duties 1 and 3" },
+      { "area": "Software engineering: implementation, testing methodology, version control and release practice", "duties": "Duties 1 and 4" },
+      { "area": "Data systems: processing and querying large request and log datasets", "duties": "Duty 3" }
+    ],
+    "why_degree": [
+      "**The adversary adapts.** Automated abuse is built to evade detection. Designing and evaluating controls against an adversary who responds to them requires formal training in threat modeling and adversarial analysis.",
+      "**The analysis concerns identity and authorization.** Determining whether an automated actor is acting within its granted permissions requires knowledge of access control models, authentication flows, and web and API protocols.",
+      "**Results are judged statistically.** Whether a detection method works is established by measuring false positives and missed detections, which requires training in algorithms and statistical evaluation."
+    ],
+    "ooh_sentence": "The U.S. Department of Labor's Occupational Outlook Handbook states that information security analysts typically need a bachelor's degree in a computer-related field."
+  },
+
+  "funding": {
+    "founder_contribution": 50000,
+    "contribution_month": "July 2026",
+    "bank_balance": 50000,
+    "balance_date": "2026-09-24",
+    "revenue_start": "January 2027",
+    "raise_amount": 500000,
+    "raise_month": "April 2027",
+    "contingency": "If the pre-seed round is delayed, the Company defers its first additional hire and marketing spend; the founder's contribution and pilot revenue cover the required wage through the period with a shortfall of roughly $25,000 that the founder can cover by a further contribution."
+  },
+
+  "evidence": {
+    "folder": "~/Documents/H1B-Filing",
+    "exhibits": [
+      { "letter": "A", "title": "Delaware Certificate of Incorporation", "file": "Northwind-Certificate-of-Incorporation.pdf", "category": "Petitioner's business documents", "include": true },
+      { "letter": "B", "title": "Bylaws; Action of Incorporator; Sole Director Consent", "file": "Northwind-Bylaws-and-Consents.pdf", "category": "Evidence of available position", "include": true },
+      { "letter": "C", "title": "Stock certificate and stock ledger", "file": "Northwind-Stock-Ledger.pdf", "category": "Petitioner's business documents", "include": true },
+      { "letter": "D", "title": "IRS EIN confirmation letter; California Statement and Designation by Foreign Corporation", "file": "Northwind-EIN-and-CA-Registration.pdf", "category": "Petitioner's business documents", "include": true },
+      { "letter": "E", "title": "Business Plan", "file": "Northwind-Business-Plan.pdf", "category": "Other", "include": true },
+      { "letter": "F", "title": "Job Description: AI Security Engineer", "file": "Northwind-Job-Description.pdf", "category": "Evidence of qualified specialty occupation", "include": true },
+      { "letter": "G", "title": "Occupational Outlook Handbook, Information Security Analysts", "file": "OOH-Information-Security-Analysts.pdf", "category": "Other", "include": true },
+      { "letter": "H", "title": "Job announcements for parallel positions", "file": null, "category": "Other", "include": false },
+      { "letter": "I", "title": "Expert opinion letter", "file": null, "category": "Other", "include": false },
+      { "letter": "J", "title": "Beneficiary's M.S. diploma and official transcript", "file": "Tanaka-Diploma-and-Transcript.pdf", "category": "Beneficiary's education", "include": true },
+      { "letter": "K", "title": "Beneficiary's recent pay statements and W-2", "file": "Tanaka-Pay-Statements.pdf", "category": "Beneficiary's current status", "include": true },
+      { "letter": "L", "title": "Certified Labor Condition Application, signed", "file": "Northwind-LCA-Certified.pdf", "category": "Labor Condition Application", "include": true },
+      { "letter": "M", "title": "Offer of employment, signed", "file": "Northwind-Offer-Letter.pdf", "category": "Written contract or terms of agreement", "include": true },
+      { "letter": "N", "title": "Company bank statement", "file": "Northwind-Bank-Statement.pdf", "category": "Other", "include": true },
+      { "letter": "O", "title": "Prior H-1B approval notices, I-94 record, passport and visa", "file": "Tanaka-Status-Documents.pdf", "category": "Beneficiary's current status", "include": true },
+      { "letter": "P", "title": "Website screenshots; pitch deck; lease clause permitting home-based business", "file": "Northwind-Website-Deck-Lease.pdf", "category": "Other", "include": true }
+    ]
+  },
+
+  "omit": {
+    "employers_not_to_mention": ["Example Legacy Corp"],
+    "topics": ["former employer's customer names and contract values"]
+  },
+
+  "fees": {
+    "fte": 1,
+    "i129_total": 2010,
+    "i907": 2965,
+    "total": 4975
+  }
+}
