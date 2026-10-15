@@ -1,0 +1,23 @@
+{
+  "skill_name": "h1b-founder-self-petition",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I just incorporated my startup through Stripe Atlas and I'm on H-1B with my current employer who laid me off two weeks ago. I want my own company to sponsor me. I have the Delaware certificate, EIN letter, my two I-797 approval notices and my passport in a folder. Where do I start and what else do I need?",
+      "expected_output": "Starts intake per the skill: explains the LCA is the gate, lists the missing documents from evidence-map, begins building case.json, notes the 60-day grace period and portability, asks the Phase 1 questions it cannot answer from the files.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Here is my certified LCA, my support letter draft, offer letter and job description. Check whether they contradict each other before I fill the I-129.",
+      "expected_output": "Runs the consistency checklist and reports a table of mismatches (dates, wage, hours split, degree wording, titles, exhibits) with fixes; does not rewrite frozen documents.",
+      "files": ["lca.pdf", "support-letter.docx", "offer-letter.docx", "job-description.docx"]
+    },
+    {
+      "id": 3,
+      "prompt": "I'm logged into my company's USCIS account in Chrome. Fill in the I-129 for me from case.json and upload the PDFs in ~/Documents/H1B, but don't submit — I'll pay myself.",
+      "expected_output": "Loads Chrome tools in one call, opens a new tab, works section by section with saves, uploads evidence under the right categories, reviews the draft PDF against case.json, continues to I-907, and stops at 'Ready to pay and submit' with a screenshot and the fee amount.",
+      "files": ["case.json"]
+    }
+  ]
+}
